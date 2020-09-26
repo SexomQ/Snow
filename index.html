@@ -1,0 +1,521 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto:wght@300&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/abb43d6716.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/glide.core.min.css">
+<link href="assets/css/style.css" rel="stylesheet">
+<title>Snow</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+	
+	<!------------------navigation------------------>
+	<!--transparent-navbar-->
+	<nav class="navbar navbar-transparent navbar-expand-md py-4 px-0" id="navbar-transparent">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img class="logo-big" src="assets/img/logo-light.png" alt="Snow" style="width:auto;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup1" aria-controls="navbarNavAltMarkup1" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="expand-item"><i class="fas fa-bars"></i></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup1">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="#home">Home</a>
+					<a class="nav-item nav-link " href="work.html">Work</a>
+					<a class="nav-item nav-link " href="#about">About</a>
+					<a class="nav-item nav-link " href="#blog">Blog</a>
+					<a class="nav-item nav-link " href="#contact">Contact</a>
+				</div>
+			</div>
+	    </div>
+	</nav>
+	<!--white-navbar-->
+	<nav class="navbar navbar-white navbar-expand-md fixed-top py-4 px-0" id="navbar-white">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img class="logo-big" src="assets/img/logo.png" alt="Snow" style="width:auto;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup2" aria-controls="navbarNavAltMarkup2" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="expand-item"><i class="fas fa-bars"></i></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup2">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="#home">Home</a>
+					<a class="nav-item nav-link " href="work.html">Work</a>
+					<a class="nav-item nav-link " href="#about">About</a>
+					<a class="nav-item nav-link " href="#blog">Blog</a>
+					<a class="nav-item nav-link " href="#contact">Contact</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!------------------navigation-end------------------>
+	
+	
+	<main>
+		
+		<!------------------header------------------>
+		<header class="header" id="home">
+			<div class="header__darkening">
+			</div>
+			<div class="container">
+				<div class="intro">
+					<div class="intro__text">
+						<h6>new branding agency</h6>
+						<h1>We are about to change the way<br><em>you publish on web</em></h1>
+					</div>
+					<div class="scrollbutton" onclick="scrollFunction()">
+					<i class="fas fa-chevron-down"></i>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!------------------header-end------------------>
+		
+		<!------------------about------------------>
+		<div class="about" id="about">
+			<div class="container">
+				<div class="about__items">
+					<div class="title">
+						<div class="title__top">
+							<h2>About Our Agency</h2>
+						</div>
+						<div class="title__bottom">
+							<span>We are a new design studio based in USA. We have over 20 			years of combined experience, and know 
+									a thing or two about designing websites and mobile apps. Clever use of technology
+									and lean processes enable us to work faster and smarter.
+							</span>
+						</div>
+					</div>
+					<div class="signature">
+						<img src="assets/img/about-me-signature.png" alt="signature">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------about-end------------------>
+
+		<!------------------stats------------------>
+		<div class="stats" id="stats">
+			<div class="container">
+				<div class="row d.flex justify-content-around">
+   			    	<div class="col col-12 col-sm-12 col-md-6 col-lg-3">
+						<div class="stats__card">
+							<i class="fas fa-briefcase"></i>
+							<div class="stats__info">
+								<span class="number">548</span>
+								<span class="type">projects completed</span>
+							</div>
+						</div>
+					</div>
+					<div class="col col-12 col-sm-12 col-md-6 col-lg-3">
+						<div class="stats__card">
+							<i class="far fa-clock"></i>
+							<div class="stats__info">
+								<span class="number">1465</span>
+								<span class="type">working hours</span>
+							</div>
+						</div>
+					</div>
+					<div class="col col-12 col-sm-12 col-md-6 col-lg-3">
+						<div class="stats__card">
+							<i class="far fa-star"></i>
+							<div class="stats__info">
+								<span class="number">612</span>
+								<span class="type">positive feedbacks</span>
+							</div>
+						</div>
+					</div>
+					<div class="col col-12 col-sm-12 col-md-6 col-lg-3">
+						<div class="stats__card">
+							<i class="far fa-heart"></i>
+							<div class="stats__info">
+								<span class="number">735</span>
+								<span class="type">happy clients</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------stats-end------------------>
+		
+		<!------------------projects------------------>
+		<div class="projects" id="projects">
+			<div class="container">
+				<div class="project__items">
+					<div class="title">
+						<div class="title__top">
+							<h2>Best Projects</h2>
+						</div>
+						<div class="title__bottom">
+							<span>Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus.
+							Vestibulum gravida volutpat ipsum non ultrices.
+							</span>
+						</div>
+					</div>	
+					<div class="grid js-masonry" data-masonry-options='{ "itemSelector": ".grid-item" }'>
+						<div class="grid-sizer"></div>
+						<div class="grid-item">
+							<div class="grid-item__portofolio">
+								<img class="portofolio-image" src="assets/img/portfolio-1-sm.jpg">
+								<a href="#"><div class="portofolio-info">
+									<div class="portofolio-info__title">Vinil Record<br>
+									<span>photography</span></div>
+								</div></a>
+							</div>
+						</div>
+						<div class="grid-item">
+							<div class="grid-item__portofolio">
+								<img class="portofolio-image" src="assets/img/portfolio-2-sm.jpg">
+								<a href="#"><div class="portofolio-info">
+									<div class="portofolio-info__title">Vinil Record<br>
+									<span>branding</span></div>
+								</div></a>
+							</div>
+						</div>
+						<div class="grid-item">
+							<div class="grid-item__portofolio">
+								<img class="portofolio-image" src="assets/img/portfolio-3-sm.jpg">
+								<a href="#"><div class="portofolio-info">
+									<div class="portofolio-info__title">Vinil Record<br>
+									<span>mockup</span></div>
+								</div></a>
+							</div>
+						</div>
+						<div class="grid-item">
+							<div class="grid-item__portofolio">
+								<img class="portofolio-image" src="assets/img/portfolio-4-sm.jpg">
+								<a href="#"><div class="portofolio-info">
+									<div class="portofolio-info__title">Vinil Record<br>
+									<span>design</span></div>
+								</div></a>
+							</div>
+						</div>
+						<div class="grid-item">
+							<div class="grid-item__portofolio">
+								<img class="portofolio-image" src="assets/img/portfolio-5-sm.jpg">
+								<a href="#"><div class="portofolio-info">
+									<div class="portofolio-info__title">Vinil Record<br>
+									<span>photography</span></div>
+								</div></a>
+							</div>
+						</div>
+						<div class="grid-item">
+							<div class="grid-item__portofolio">
+								<img class="portofolio-image" src="assets/img/portfolio-6-sm.jpg">
+								<a href="#"><div class="portofolio-info">
+									<div class="portofolio-info__title">Vinil Record<br>
+									<span>print</span></div>
+								</div></a>
+							</div>
+						</div>
+						<div class="grid-item">
+							<div class="grid-item__portofolio">
+								<img class="portofolio-image" src="assets/img/portfolio-7-sm.jpg">
+								<a href="#"><div class="portofolio-info">
+									<div class="portofolio-info__title">Vinil Record<br>
+									<span>photography</span></div>
+								</div></a>
+							</div>
+						</div>
+						<div class="grid-item">
+							<div class="grid-item__portofolio">
+								<img class="portofolio-image" src="assets/img/portfolio-8-sm.jpg">
+								<a href="#"><div class="portofolio-info">
+									<div class="portofolio-info__title">Vinil Record<br>
+									<span>mockup</span></div>
+								</div></a>
+							</div>
+						</div>
+						<div class="grid-item">
+							<div class="grid-item__portofolio">
+								<img class="portofolio-image" src="assets/img/portfolio-9-sm.jpg">
+								<a href="#"><div class="portofolio-info">
+									<div class="portofolio-info__title">Vinil Record<br>
+									<span>print</span></div>
+								</div></a>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------projects-end------------------>
+		
+		<!------------------comment------------------>
+		<div class="comment" id="comment">
+			<div class="container-liquid">
+				<div class="glide1">
+					<div class="glide__track" data-glide-el="track">
+						<ul class="glide__slides">
+							<li class="glide__slide">
+								<div class="comment__text">“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”</div>
+								<div class="comment__name">Michael Hopkins</div>
+							</li>
+							<li class="glide__slide">
+								<div class="comment__text">“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”</div>
+								<div class="comment__name">Michael Hopkins</div>
+							</li>
+							<li class="glide__slide">
+								<div class="comment__text">“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”</div>
+								<div class="comment__name">Michael Hopkins</div>
+							</li>
+						</ul>
+					</div>
+					<div class="glide__bullets" data-glide-el="controls[nav]">
+						<button class="glide__bullet" data-glide-dir="=0"></button>
+						<button class="glide__bullet" data-glide-dir="=1"></button>
+						<button class="glide__bullet" data-glide-dir="=2"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------comment-end------------------>
+
+		<!------------------partners------------------>
+		<div class="partners" id="partners">
+			<div class="container">
+				<div class="glide2">
+					<div class="glide__track" data-glide-el="track">
+						<ul class="glide__slides">
+							<li class="glide__slide">
+								<img class="partners__logo" src="assets/img/partner-logo-1-dark.png" alt="partner-logo">
+							</li>
+							<li class="glide__slide">
+								<img class="partners__logo" src="assets/img/partner-logo-2-dark.png" alt="partner-logo">
+							</li>
+							<li class="glide__slide">
+								<img class="partners__logo" src="assets/img/partner-logo-3-dark.png" alt="partner-logo">
+							</li>
+							<li class="glide__slide">
+								<img class="partners__logo" src="assets/img/partner-logo-4-dark.png" alt="partner-logo">
+							</li>
+							<li class="glide__slide">
+								<img class="partners__logo" src="assets/img/partner-logo-5-dark.png" alt="partner-logo">
+							</li>
+							<li class="glide__slide">
+								<img class="partners__logo" src="assets/img/partner-logo-6-dark.png" alt="partner-logo">
+							</li>
+							<li class="glide__slide">
+								<img class="partners__logo" src="assets/img/partner-logo-7-dark.png" alt="partner-logo">
+							</li>
+							<li class="glide__slide">
+								<img class="partners__logo" src="assets/img/partner-logo-8-dark.png" alt="partner-logo">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------partners-end------------------>
+
+		<!------------------blog------------------>
+		<div class="blog" id="blog">
+			<div class="container">
+				<div class="title">
+					<div class="title__top">
+						<h2>Latest Blog</h2>
+					</div>
+					<div class="title__bottom">
+						<span>Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
+						</span>
+					</div>
+				</div>
+				<div class="glide3 cards">
+					<div class="glide__track" data-glide-el="track">
+						<ul class="glide__slides">
+							<a href="blog.html"><li class="glide__slide card">
+								<div class="card__top">
+									<img class="card__img" src="assets/img/portfolio-1-sm.jpg" alt='image'>
+									<div class="card__category">nature</div> 
+								</div>
+								<div class="card__bottom">
+									<div class="card__title">Something I need to tell you</div>
+									<div class="card__date">May 16, 2016</div>
+									<p class="card__text">Mauris sed odio tincidunt, volutpat augue, commodo dui. Phasellus hendrerit condi ntum vehicula.</p>
+								</div>
+							</li></a>
+							<a href="blog.html"><li class="glide__slide card">
+								<div class="card__top">
+									<img class="card__img" src="assets/img/portfolio-1-sm.jpg" alt='image'>
+									<div class="card__category">branding</div> 
+								</div>
+								<div class="card__bottom">
+									<div class="card__title">Are you doing The Right Way?</div>
+									<div class="card__date">May 28, 2016</div>
+									<p class="card__text">Curabitur et diam ut magna pulvinar euis mod. Sed metus purus, ornare id moltie, laoreet vitae magna.</p>
+								</div>
+							</li></a>
+							<a href="blog.html"><li class="glide__slide card">
+								<div class="card__top">
+									<img class="card__img" src="assets/img/portfolio-1-sm.jpg" alt='image'>
+									<div class="card__category">design</div> 
+								</div>
+								<div class="card__bottom">
+									<div class="card__title">Why you should Always First</div>
+									<div class="card__date">june 01, 2016</div>
+									<p class="card__text">Mauris sed odio tincidunt, volutpat augue, commodo dui. Phasellus hendrerit condi ntum vehicula.</p>
+								</div>
+							</li></a>
+							<a href="blog.html"><li class="glide__slide card">
+								<div class="card__top">
+									<img class="card__img" src="assets/img/portfolio-1-sm.jpg" alt='image'>
+									<div class="card__category">nature</div> 
+								</div>
+								<div class="card__bottom">
+									<div class="card__title">Something I need to tell you</div>
+									<div class="card__date">May 16, 2016</div>
+									<p class="card__text">Mauris sed odio tincidunt, volutpat augue, commodo dui. Phasellus hendrerit condi ntum vehicula.</p>
+								</div>
+							</li></a>
+						</ul>
+					</div>
+					<div class="glide__bullets" data-glide-el="controls[nav]">
+						<button class="glide__bullet" data-glide-dir="=0"></button>
+						<button class="glide__bullet" data-glide-dir="=1"></button>
+						<button class="glide__bullet" data-glide-dir="=2"></button>
+						<button class="glide__bullet" data-glide-dir="=3"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------blog-end------------------>
+
+		<!------------------contact------------------>
+		<div class="contact" id="contact">
+			<div class="container">
+				<div class="row contact__items">
+					<div class="col-md-5 contact__info">
+						<div class="contact__title">Contact Info:</div>
+						<div class="contact__text">Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctor quam consectetur.</div>
+						<div class="contact__coordinates">
+							<a class="contact__address" href="https://www.google.com/maps/place/10111+Santa+Monica+Blvd,+West+Hollywood,+CA+90038,+USA/@34.0907184,-118.3458812,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2bf29a6c9af2b:0x67a5915b59cc0b6a!8m2!3d34.090714!4d-118.3436925" target="_blank">
+								<span>Address:</span>10111 Santa Monica Boulevard, LA
+							</a><br>
+							<a class="contact__phone" href="tel:+44 987 065 908">
+								<span>Phone:</span>+44 987 065 908
+							</a><br>
+							<a class="contact__mail" href="mailto:info@Example.com" >
+								<span>Email:</span>info@Example.com
+							</a><br>
+							<a class="contact__fax" href="fax:+44 987 065 909" >
+								<span>Fax:</span>+44 987 065 908
+							</a>
+						</div>
+					</div>
+					<div class="col-md-7 contact__form">
+						<form class="form">
+							<div class="form__line-first">
+								<input id="form__name" type="text" name="name" placeholder="Your Name">
+								<input class="form__email" type="email" name="email" placeholder="Your Email">
+							</div>
+							<input class="form__title" type="text" name="title" placeholder="Your Title"><br>
+							<textarea class="form__comment" name="comment" form="form" placeholder="Your Comment"></textarea><br>
+							<input class="form__submit" type="button" name="submit" value="SEND MESSAGE">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------contact-end------------------>
+	</main>
+		
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__items">
+				<div class="row footer__item">
+					<div class="col-md-4 aboutUs">
+						<div class="aboutUs__title">About Us</div>
+						<div class="aboutUs__text">Aenean mattis augue in arcu tempor bibendum. Nam euismod facilisis magna, quis pharetra turpis molestie eu. Integer feugiat arcu sit amet leo ullamcorper feugiat efficitur.</div>
+						<div class="aboutUs__logos">
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-google"></i></a>
+							<a href="#"><i class="fab fa-behance"></i></a>
+							<a href="#"><i class="fab fa-pinterest"></i></a>
+							<a href="#"><i class="fab fa-instagram-square"></i></a>
+						</div>
+					</div>
+					<div class="col-md-4 latestTwits">
+						<div class="latestTwits__title">Latest Twits</div>
+						<div class="latestTwits__items">
+							<div class="latestTwits__item">
+								<i class="fab fa-twitter"></i>
+								<p>Duis eget finibus nibh. Vivamus sagittis vulputate risus ac tincidunt.</p>
+							</div>
+							<div class="latestTwits__item">
+								<i class="fab fa-twitter"></i>
+								<p>Duis eget finibus nibh. Vivamus sagittis vulputate risus ac tincidunt.</p>
+							</div>
+							<div class="latestTwits__item">
+								<i class="fab fa-twitter"></i>
+								<p>Duis eget finibus nibh. Vivamus sagittis vulputate risus ac tincidunt.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 instagram">
+						<div class="instagram__title">Instagram</div>
+						<div class="instagram__images">
+							<div class="instagram__image">
+								<a href="#"><img src="assets/img/avatar-1.jpg"></a>
+							</div>
+							<div class="instagram__image">
+								<a href="#"><img src="assets/img/avatar-1.jpg"></a>
+							</div>
+							<div class="instagram__image">
+								<a href="#"><img src="assets/img/avatar-1.jpg"></a>
+							</div>
+							<div class="instagram__image">
+								<a href="#"><img src="assets/img/avatar-1.jpg"></a>
+							</div>
+							<div class="instagram__image">
+								<a href="#"><img src="assets/img/avatar-1.jpg"></a>
+							</div>
+							<div class="instagram__image">
+								<a href="#"><img src="assets/img/avatar-1.jpg"></a>
+							</div>
+							<div class="instagram__image">
+								<a href="#"><img src="assets/img/avatar-1.jpg"></a>
+							</div>
+							<div class="instagram__image">
+								<a href="#"><img src="assets/img/avatar-1.jpg"></a>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+		<div class="footer__item copyright">
+			<div class="container-liquid">
+				<div class="copyright__text">
+					© 2020. Created by Tudor.
+				</div>						
+			</div>
+		</div>
+	</footer>
+	
+	<!--masonry-->
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+	<!--glideslider-->
+	<script src="assets/js/glide.min.js"></script>
+	<script src="assets/js/glide_script.js"></script>
+
+	<!--bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+	<script src="assets/js/script.js"></script>
+	
+</body>
+</html>
+	

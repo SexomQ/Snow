@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto:wght@300&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/abb43d6716.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/glide.core.min.css">
+<link href="assets/css/style.css" rel="stylesheet">
+<title>Snow</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+	<!------------------navigation------------------>
+	<!--white-navbar-->
+	<nav class="navbar navbar-white-secondary navbar-expand-md py-4 px-0" id="navbar-white-secondary">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img class="logo-big" src="assets/img/logo.png" alt="Snow" style="width:auto;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup2" aria-controls="navbarNavAltMarkup2" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="expand-item"><i class="fas fa-bars"></i></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup2">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link " href="index.html">Home</a>
+					<a class="nav-item nav-link " href="#">Work</a>
+					<a class="nav-item nav-link " href="index.html#about">About</a>
+					<a class="nav-item nav-link " href="index.html#blog">Blog</a>
+					<a class="nav-item nav-link " href="index.html#contact">Contact</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!------------------navigation-end------------------>
+
+	<main>
+
+		<div class="work" id="work">
+			<div class="container">
+				<div class="work__elements">
+					<div class="work__button-open" id="">
+						<div class="work__button-area" onclick="ButtonOpenFunction()" id="ButtonOpen">
+							<div class="work__button-icon" id="animation">
+								<i class="work__icon fas fa-square-full"></i>
+								<i class="work__icon fas fa-square-full"></i>
+								<i class="work__icon fas fa-square-full"></i>
+								<i class="work__icon fas fa-square-full"></i>
+							</div>
+						</div>
+
+						<!--start Filter-->
+						<div class="button-group filters-button-group" id="buttons">
+							<button class="button active" onclick="filterSelection('all')">all</button>
+							<button class="button" onclick="filterSelection('branding')">branding</button>
+							<button class="button" onclick="filterSelection('print')">print</button>
+							<button class="button" onclick="filterSelection('photography')">photography</button>
+							<button class="button" onclick="filterSelection('design')">design</button>
+							<button class="button" onclick="filterSelection('mockup')">mockup</button>
+						</div>
+					</div>
+					<div class="grid">
+						<div class="grid-item filterDiv photography show" data-category="photography">
+							<div class="grid-item_items">
+								<div class="grid-item__portofolio">
+									<img class="portofolio-image" src="assets/img/portfolio-1-sm.jpg">
+									<a href="#"><div class="portofolio-info">
+										<div class="portofolio-info__title">Vinil Record<br>
+										<span>photography</span></div>
+									</div></a>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item filterDiv branding show" data-category="branding">
+							<div class="grid-item_items">
+								<div class="grid-item__portofolio">
+									<img class="portofolio-image" src="assets/img/portfolio-2-sm.jpg">
+									<a href="#"><div class="portofolio-info">
+										<div class="portofolio-info__title">Vinil Record<br>
+										<span>branding</span></div>
+									</div></a>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item filterDiv mockup show" data-category="mockup">
+							<div class="grid-item_items">
+								<div class="grid-item__portofolio" >
+									<img class="portofolio-image" src="assets/img/portfolio-3-sm.jpg">
+									<a href="#"><div class="portofolio-info">
+										<div class="portofolio-info__title">Vinil Record<br>
+										<span>mockup</span></div>
+									</div></a>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item filterDiv design show" data-category="design">
+							<div class="grid-item_items">
+								<div class="grid-item__portofolio">
+									<img class="portofolio-image" src="assets/img/portfolio-4-sm.jpg">
+									<a href="#"><div class="portofolio-info">
+										<div class="portofolio-info__title">Vinil Record<br>
+										<span>design</span></div>
+									</div></a>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item filterDiv photography show" data-category="photography">
+							<div class="grid-item_items">
+								<div class="grid-item__portofolio">
+									<img class="portofolio-image" src="assets/img/portfolio-5-sm.jpg">
+									<a href="#"><div class="portofolio-info">
+										<div class="portofolio-info__title">Vinil Record<br>
+										<span>photography</span></div>
+									</div></a>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item filterDiv print show"data-category="print">
+							<div class="grid-item_items">
+								<div class="grid-item__portofolio">
+									<img class="portofolio-image" src="assets/img/portfolio-6-sm.jpg">
+									<a href="#"><div class="portofolio-info">
+										<div class="portofolio-info__title">Vinil Record<br>
+										<span>print</span></div>
+									</div></a>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item filterDiv photography show" data-category="photography">
+							<div class="grid-item_items">
+								<div class="grid-item__portofolio">
+									<img class="portofolio-image" src="assets/img/portfolio-7-sm.jpg">
+									<a href="#"><div class="portofolio-info">
+										<div class="portofolio-info__title">Vinil Record<br>
+										<span>photography</span></div>
+									</div></a>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item filterDiv mockup show" data-category="mockup">
+							<div class="grid-item_items">
+								<div class="grid-item__portofolio">
+									<img class="portofolio-image" src="assets/img/portfolio-8-sm.jpg">
+									<a href="#"><div class="portofolio-info">
+										<div class="portofolio-info__title">Vinil Record<br>
+										<span>mockup</span></div>
+									</div></a>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item filterDiv print show"data-category="print">
+							<div class="grid-item_items">
+								<div class="grid-item__portofolio">
+									<img class="portofolio-image" src="assets/img/portfolio-9-sm.jpg">
+									<a href="#"><div class="portofolio-info">
+										<div class="portofolio-info__title">Vinil Record<br>
+										<span>print</span></div>
+									</div></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--end Filter-->
+				</div>		
+			</div>
+		</div>
+
+		<div class="more-btn">
+			<button class="button">load more work</button>
+		</div>
+
+	</main>
+
+	<footer class="footer-simple">
+		<div class="container">
+			<div class="footer-simple__items">
+				<div class="aboutUs__logos">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google"></i></a>
+					<a href="#"><i class="fab fa-behance"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-instagram-square"></i></a>
+				</div>
+				<div class="footer__item copyright">
+					<div class="copyright__text">
+						© 2020. Created by Tudor.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!--bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
